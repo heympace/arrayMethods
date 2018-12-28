@@ -46,3 +46,31 @@ console.log(groceryList);
 // indexOf - find index of item
 const pastaIndex = groceryList.indexOf('pasta');
 console.log(pastaIndex);
+
+
+/* 
+---------------------------------------------------------------
+More Practice / Review section
+---------------------------------------------------------------
+*/
+
+
+let lifeBalance = ['Growth', ['Friends', 'Family', 'Romance'], 'Career', 'Health', 'Finances', ['Home Space', 'Work space']];
+
+// Use the .length property to find the last element of an array
+console.log('Here is the last list item:');
+console.log(lifeBalance[lifeBalance.length - 1]);
+console.log('');
+
+//Take all the elements in an array and make a string.
+console.log('Here is a string of the lifeBalance list:');
+console.log(lifeBalance.toString());
+console.log('');
+
+//Nest an array within an array.
+console.log('Add an array in an array:');
+lifeBalance[3] = ['Physical Health', 'Mental Health']
+console.log(lifeBalance);
+
+// Access an element in the nested array.
+console.log(lifeBalance[5][0]);
